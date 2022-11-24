@@ -1,3 +1,23 @@
-h1 {
-    font-size:1em;
+body {
+    background-color:#ddd;
+}
+
+.navbar {
+    z-index:999;
+}
+
+.carousel {
+    position:absolute;
+    top:0;
+}
+
+.brandtext {
+    color:white;
+    font-size:2em;
+    vertical-align: middle;
+    font-family:'Roboto';
+}
+
+.brand {
+    vertical-align: middle;
 }
