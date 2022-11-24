@@ -16,8 +16,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
 </head>
 <body>
-    <div class="">
-        <nav class="navbar bg-transparent h-50">
+    <header>
+    <div class="row">
+        <nav class="navbar bg-transparent fixed-top scrolled">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" alt="Logo" width="80" height="auto" class="brand d-inline-block">
@@ -26,25 +27,75 @@
             </div>
           </nav>
     </div>
+    </header>
 
     <!-- comienzo del elemento carousel -->
-    <section id="carousel1">
+    <section>
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="150">
+          <div class="carousel-item active" data-interval="700">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="alpacas">
           </div>
-          <div class="carousel-item" data-interval="150">
+          <div class="carousel-item" data-interval="700">
             <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="atardecer moais">
           </div>
-          <div class="carousel-item" data-interval="150"> 
+          <div class="carousel-item" data-interval="700"> 
             <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pingüinos">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- enlaces de js, jquery y popper -->
-    
+    <!-- seccion principal de informacion -->
+    <main>   
+    <div class="container">
+        <div class="row align-items-start">
+          <!-- columna 1 -->
+          <div class="col-12 col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                  Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                  facilisis lectus. Integer ac aliquam dui. Cras ante nisl, blandit vel lacinia ac, tempus vitae leo. 
+                  Aenean pulvinar, sapien nec tempor sollicitudin, urna dolor blandit nibh, et pharetra odio magna 
+                  sed erat. Nam metus orci, rhoncus vel magna a, iaculis facilisis tellus.</p>
+                </div>
+            </div>
+          </div>    
+          <!-- columna 2 -->
+          <div class="col-12 col-md-4 mt-5">
+            <div class="card">
+                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                  Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                  facilisis lectus. Integer ac aliquam dui. Cras ante nisl, blandit vel lacinia ac, tempus vitae leo. 
+                  Aenean pulvinar, sapien nec tempor sollicitudin, urna dolor blandit nibh, et pharetra odio magna 
+                  sed erat. Nam metus orci, rhoncus vel magna a, iaculis facilisis tellus.</p>
+                </div>
+                <div class="card-body">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+            </div>
+          </div>  
+          <!-- columna 3 -->
+          <div class="col-12 col-md-4 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+                <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                  Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                  facilisis lectus. Integer ac aliquam dui. Cras ante nisl, blandit vel lacinia ac, tempus vitae leo. 
+                  Aenean pulvinar, sapien nec tempor sollicitudin, urna dolor blandit nibh, et pharetra odio magna 
+                  sed erat. Nam metus orci, rhoncus vel magna a, iaculis facilisis tellus.</p>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </div>
+  </main> 
+
+   <script src="assets/js/script.js"></script>
 </body>
 </html>

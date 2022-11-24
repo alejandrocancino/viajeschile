@@ -1,14 +1,9 @@
 body {
-    background-color:#ddd;
+    background-color:#000;
 }
 
-.navbar {
-    z-index:999;
-}
-
-.carousel {
-    position:absolute;
-    top:0;
+h1 {
+    text-align: center;
 }
 
 .brandtext {
@@ -21,3 +16,29 @@ body {
 .brand {
     vertical-align: middle;
 }
+
+
+.card-text {
+    background-color:black;
+    text-align:center;
+    font-size:0.9em;
+    color: rgba(255,255,255,0.77);
+}
+
+.card-body {
+    text-align: center;
+    height: 2em;
+    background-color: rgba(0, 200, 232, 1);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    padding:0;
+    font-family:'Roboto';
+    font-weight:300;
+}
+
+.card {
+    border-radius:0 !important;
+    text-align:center;
+    background-color:black !important;
+}
+
