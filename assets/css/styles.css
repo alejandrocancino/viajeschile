@@ -51,10 +51,6 @@ h1 {
     margin-top:2em;
 }
 
-.scrolled {
-    background-color:white;
-}
-
 .bodyDestacados {
     color:white;
     font-size:0.6em;
@@ -98,4 +94,17 @@ padding:1em;
 
 .rrss {
     margin-right:2em;
+}
+
+
+@media screen and (max-width: 576px){
+    .brandtext {
+        font-size:0.6em;
+    }
+    header img {
+        width:2em;
+    }
+    .carousel, #seccion1 {
+        display:none;
+    }    
 }
