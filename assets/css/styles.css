@@ -33,7 +33,7 @@ h1 {
 .card-body {
     text-align: center;
     height: 2em;
-    background-color: rgba(0, 200, 232, 1);
+    background-color:#6c1ae7;
     font-size: 1.5em;
     margin-bottom: 1em;
     padding:0;
@@ -77,9 +77,25 @@ padding:1em;
 .btn-lg {
     border-style:none;
     width:10em;
+    background-color:#6c1ae7;
 }
 
 #contacto {
     font-family:'Roboto';
     font-weight:400;
+}
+
+.text-white {
+    margin-left:1em;
+    margin-right:1em;
+}
+
+#footer {
+    background-color:#6c1ae7;
+    margin:0;
+    padding:0;
+}
+
+.rrss {
+    margin-right:2em;
 }
