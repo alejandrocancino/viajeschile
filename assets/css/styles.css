@@ -4,6 +4,11 @@ body {
 
 h1 {
     text-align: center;
+    color:white;
+    font-family: 'Roboto';
+    font-weight:700;
+    margin-top:2em;
+    margin-bottom:2em;
 }
 
 .brandtext {
@@ -42,3 +47,39 @@ h1 {
     background-color:black !important;
 }
 
+#h1destacados {
+    margin-top:2em;
+}
+
+.scrolled {
+    background-color:white;
+}
+
+.bodyDestacados {
+    color:white;
+    font-size:0.6em;
+    line-height:1em;
+    margin-top:1em;
+}
+
+#destacados .card-body {
+height:7em;
+padding:1em;
+}
+
+.btn-lg:hover {
+    color:white;
+    background-color:black;
+    border:1px solid white;
+    transition: all 0.5s 0s ease;
+}
+
+.btn-lg {
+    border-style:none;
+    width:10em;
+}
+
+#contacto {
+    font-family:'Roboto';
+    font-weight:400;
+}

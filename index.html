@@ -18,7 +18,7 @@
 <body>
     <header>
     <div class="row">
-        <nav class="navbar bg-transparent fixed-top scrolled">
+        <nav class="navbar fixed-top scrolled">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                 <img src="assets/img/viajes.svg" alt="Logo" width="80" height="auto" class="brand d-inline-block">
@@ -33,13 +33,13 @@
     <section>
     <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-interval="700">
+          <div class="carousel-item active" data-interval="1000">
             <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="alpacas">
           </div>
-          <div class="carousel-item" data-interval="700">
+          <div class="carousel-item" data-interval="1000">
             <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="atardecer moais">
           </div>
-          <div class="carousel-item" data-interval="700"> 
+          <div class="carousel-item" data-interval="1000"> 
             <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pingüinos">
           </div>
         </div>
@@ -49,6 +49,9 @@
     <!-- seccion principal de informacion -->
     <main>   
     <div class="container">
+      <div class="container-fluid">
+        <h1 id="quienesSomos">Quienes Somos</h1>
+      </div>
         <div class="row align-items-start">
           <!-- columna 1 -->
           <div class="col-12 col-md-4 mt-5">
@@ -94,7 +97,101 @@
           </div>  
         </div>
     </div>
-  </main> 
+  </main>
+  <!-- fin de la seccion principal de informacion  -->
+  <!-- inicio de los destacados -->
+  <main id="destacados">
+    <div class="container-fluid">
+      <h1 id="h1destacados">Destacados</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- card 1-->
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="bodyDestacados">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                facilisis lectus. </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- tarjeta 2-->
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <img style="height:10.5em;" src="assets/img/card2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="bodyDestacados">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                facilisis lectus. </p>
+            </div>
+          </div>
+        </div>      
+
+        <!-- card 3-->
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="bodyDestacados">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                facilisis lectus. </p>
+            </div>
+          </div>
+        </div>       
+        <!-- card 4-->
+        <div class="col-12 col-md-3">
+          <div class="card">
+            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <p class="bodyDestacados">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac accumsan leo. 
+                Suspendisse tortor lectus, vestibulum vel turpis ut, efficitur tincidunt neque. Suspendisse vitae 
+                facilisis lectus. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </main>
+      <!-- formulario de contacto -->
+      <section id="contacto">
+        <form>
+          <div class="container">
+              <div class="formularioContacto">
+                   <div class="form-group">
+                      <div class="input-group mb-2">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                          </div>
+                          <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre y Apellido">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="input-group mb-2">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                          </div>
+                          <input type="email" class="form-control" id="nombre" name="email" placeholder="ejemplo@gmail.com">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <div class="input-group mb-2">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                          </div>
+                          <textarea class="form-control" placeholder="Envianos tu Mensaje"></textarea>
+                      </div>
+                  </div>
+
+                  <div class="text-center">
+                      <input type="submit" value="Enviar" class="btn-lg btn-info py-2">
+                  </div>
+              </div>
+
+          </div>
+      </form>
+      </section>
 
    <script src="assets/js/script.js"></script>
 </body>
